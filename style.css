@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 300px 600px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.background {
+    width: 100%;
+    position:relative;
+    z-index: -1;
+    background-color:black;
+}
+.centered {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: white;
+   width: 100%;
+    font-size: 6em
+  }
+
+.centered h1 {
+        font-size: 10em;
+    }
+
+
+.home-page {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;   
+        
+    }
+    
+.homepage-item {
+        display: flex;
+        width: 80%;
+        height: 25px;
+        border: 1px solid lightgray;
+        background: rgb(247, 245, 245);
+        text-align:left;
+        padding-left: 40px;
+        padding-top: 5px;
+        font-size: 18px;
+        
+    }
+.events {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        height: 280px;
+        background-color: white;
+        margin-top: 50px;
+        }
+    
+.events-container {
+        height:160px;
+        width: 200px;
+        margin-left: -700px;
+        margin-top: 50px;
+    }
+.feat-image {
+        object-fit: cover;
+        height: 160px;
+        width: 200px;
+        margin-left: -20px;
+    }
+    
+.show-name {
+        font-size: 24px;
+        margin-top: -162px;
+        margin-right: 25px;
+        margin-bottom: 5px;
+    }
+    
+.date {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+    }
+    
+.address {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    
+.price {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-right: 200px;
+    }
+    
+
+.a-button {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+button {
+        height: 3em;
+        width: 9em;
+        color: white;
+        background-color: orange;
+        font-size:larger;
+    border: 1px solid black;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: -100px;
+    }
+
+    hr {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-top: 80%;
+    justify-content: space-evenly;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footer-show {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footer-head {
+    display: flex;
+    font-size: 2em;
+}
+
+.map {
+    display: flex;
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapping {
+    display: flex;
+    width: 250px;
+}
+
+p.tiny {
+    color: white;
+    text-decoration: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}   
